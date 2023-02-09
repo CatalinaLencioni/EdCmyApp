@@ -3,15 +3,15 @@ import { StatusBar } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
 const menuOptions = [
-  { name: "Perfil", icon: "arrow-down-circle", onPress: () => console.log("Perfil") },
-  { name: "Empresas EDC", icon: "arrow-down-circle", onPress: () => console.log("Perfil") },
-  { name: "Marco Legal",  icon: "arrow-down-circle", onPress: () => console.log("Marco Legal") },
-  { name: "Beneficios",  icon: "arrow-down-circle", onPress: () => console.log("Beneficios") },
+  {name: "Perfil", icon: "arrow-down-circle", onPress: () => console.log("Perfil") },
+  {name: "Empresas EDC", icon: "arrow-down-circle", onPress: () => console.log("Perfil") },
+  {name: "Marco Legal",  icon: "arrow-down-circle", onPress: () => console.log("Marco Legal") },
+  {name: "Beneficios",  icon: "arrow-down-circle", onPress: () => console.log("Beneficios") },
   {name: "Instructivo Recor Regimenes de Beneficio EdC",  icon: "arrow-down-circle", onPress: () => console.log("Instructivo Recor Regimenes de Beneficio EdC"),},
   {name: "Beneficiario Provisiorio", icon: "arrow-down-circle", onPress: () => console.log("Beneficiario Provisiorio"),},
-  { name: "Regimen EdC", icon: "arrow-down-circle", onPress: () => console.log("Regimen EdC") },
+  {name: "Regimen EdC", icon: "arrow-down-circle", onPress: () => console.log("Regimen EdC") },
   {name: "Instructivo de validación Recor", icon: "arrow-down-circle", onPress: () => console.log("Instructivo de validación Recor"),},
-  { name: "Preguntas Frecuentes", icon: "arrow-down-circle", onPress: () => console.log("Perfil") },
+  {name: "Preguntas Frecuentes", icon: "arrow-down-circle", onPress: () => console.log("Perfil") },
 ];
 
 export default function App() {
@@ -23,7 +23,6 @@ export default function App() {
           <Ionicons style={styles.containermenu} name="ios-menu" size={32} color="#000" />
         </TouchableOpacity>
         <Text style={styles.headerTitle}>Menú</Text>
-
       </View>
       <ScrollView style={styles.menu}>
         {menuOptions.map((option) => (
